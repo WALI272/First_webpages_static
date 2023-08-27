@@ -1,0 +1,91 @@
+/* Estilos de camisetas individuales; 
+estilos principales en ../css/styles.css*/
+
+
+
+/*Importing fonts*/
+@font-face {
+    font-family: roboto;
+    src: url(../../999_fonts/RobotoMono-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: roboto2;
+    src: url(../../999_fonts/RobotoMono-Italic-VariableFont_wght.ttf);
+}
+/* individual Image styles*/
+.container .row .col-xl-7{
+    background-color: rgb(73, 13, 83);
+    border-radius: 20px;
+    margin-top: 20px;  
+    margin-bottom: 20px;
+    border-radius: 4px solid black;
+
+}
+.container .row .col-xl-7 img{
+    box-shadow: 4px 4px 4px black;
+    border-radius: 20px;
+    width: 80%;
+    height: 80%;
+    align-self: center;
+}
+
+/* product information, price, details and offers */
+.container .row #product_text{
+    padding: 20px;
+    background-color: rgb(73, 13, 83);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 1.2em;
+}
+
+.container .row #product_text #name {
+    background-color: yellow;
+    border-radius: 20px;
+    margin: 2px;
+    color: black;
+    font-family: roboto2;
+}
+.container .row #product_text #pricing {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    margin: 2px;
+    font-family: roboto;
+}
+#buy_angular{
+    margin-top: 20px;
+    border-radius: 20px;
+    color: rgb(88, 14, 88);
+    text-shadow: 2px 2px 2px violet;
+    background: yellow;
+    padding: 10px;
+    font-family: roboto2;
+}
+#buy_angular:hover {
+    padding: 10px;
+    transition: 0.4s;
+    background: -webkit-linear-gradient(violet, rgb(180, 121, 180));
+    color: yellow;
+    box-shadow: 1px 0px 1px yellow;
+    border: 2px solid rgb(201, 201, 113);
+}
+
+.container .row #product_text #avaible_sizes {
+    background-color: rgb(235, 157, 222);
+    margin: 2px;
+    color: black;
+    text-shadow: 2px 2px 2px grey;
+    border-radius: 20px;
+    font-family: roboto;
+}
+.container .row #product_text #caracteristicas {
+    background-color: rgb(235, 157, 222);
+    margin: 2px;
+    color: black;
+    text-shadow: 2px 2px 2px grey;
+    border-radius: 20px;
+    font-family: roboto;
+}
+

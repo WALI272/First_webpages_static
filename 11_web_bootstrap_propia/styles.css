@@ -1,0 +1,67 @@
+#HeaderNav{
+    text-align: center;
+    background: -webkit-linear-gradient(black, black);
+    color: white;
+    text-shadow: 2px 2px 2px whitesmoke;
+}
+body {
+    background-color: black;
+}
+/*aside*/
+#aside{
+    position: sticky;
+}
+/*section*/
+.col-8 h2, h3 {
+    text-align: center;
+}
+
+/*Footer and its elements*/
+#footer{
+    background: grey;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+#footer h3 {
+    background: -webkit-linear-gradient(aqua, cyan);
+    border-radius: 20px;
+    box-shadow: 2px 5px 5px black;
+    text-shadow: 2px 2px 2px rgb(76, 76, 100);
+}
+#footer img{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 45px;
+    margin: 5px;
+    box-shadow: 4px 4px 4px black;
+}
+
+#location{
+    color: brown;
+    background: -webkit-linear-gradient(brown, orangered);
+}
+#email{
+   background: -webkit-linear-gradient(wheat, yellow);
+}
+#instagram{
+    background: -webkit-linear-gradient(magenta, violet);
+}
+#phone{ 
+    background: -webkit-linear-gradient(whitesmoke, rgb(87, 84, 84));
+}
+#whatsapp{
+    background: -webkit-linear-gradient(green, greenyellow);
+}
+#facebook{
+    background: -webkit-linear-gradient(blue, cyan);
+}
+#location:hover, #email:hover, #instagram:hover, #phone:hover, #whatsapp:hover, #facebook:hover{
+    padding: 25px;
+    transition: 0.8s;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px black;
+
+}

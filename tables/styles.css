@@ -1,0 +1,36 @@
+.container {
+    margin-left: 5%;
+    margin-right: 20%;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.col-12 {
+    background-color: black;
+    color: white;
+}
+.col-8, .col-4 {
+    background-color: grey;
+    border: 1px solid black;
+}
+
+#table_1 .col-4 {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+#container_2 .col-10, .col-8, .col-4{
+    padding: 10px;
+    font-size: 0.7em;
+}
+
+#container_2 .col-4 {
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    font-size: 0.6em;
+}
+
+#table_3 .col-4{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}

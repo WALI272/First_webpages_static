@@ -1,0 +1,89 @@
+body {
+    background: whitesmoke;
+}
+
+
+#form{
+    text-align: center;
+    background-color: pink;
+    margin: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#button_input {
+    border-radius: 20px;
+    padding:10px;
+    background: -webkit-linear-gradient(aquamarine, greenyellow);
+    text-shadow: 2px 2px 2px grey;
+    margin: 20px;
+    box-shadow: 4px 4px 4px grey;
+}
+#button_input:hover {
+    padding: 15px;
+    transition: 0.6s;
+    box-shadow: 5px 5px 5px grey;
+    background: -webkit-linear-gradient(aqua, green);
+    color: yellow;
+    text-shadow: 2px 2px 2px goldenrod;
+    font-size: 1.1em;
+}
+.row, .col {
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid black;
+    background: -webkit-linear-gradient(wheat, greenyellow);
+}
+
+
+.container {
+    box-shadow: 4px 4px 4px grey;
+    background: -webkit-linear-gradient(grey, rgb(90, 80, 80));
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+input{
+    border-radius: 5px;
+    text-align: center;
+}
+label {
+    background: -webkit-linear-gradient(magenta, red);
+    border-radius: 20px;
+    padding: 5px;
+    width: 30%;
+    margin-left: 35%;
+    border: 1px solid black;
+    color: black;
+    text-shadow:2px 2px 2px goldenrod;
+    margin-right: 80%;
+}
+
+/*importamos tipografia*/
+@font-face {
+    font-family: CelticHand;
+    src: url(../../999_fonts/CelticHand.ttf);
+}
+.CelticHand{font-family: CelticHand;}
+/*Asignamos tipografia al titulo*/
+h2{
+    font-family: CelticHand;
+}
+
+h2, h3 {
+    text-align: center;
+    padding: 10px;
+    background: -webkit-linear-gradient(greenyellow, cyan);
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 4px 4px 4px grey;
+    margin: 20px;
+    text-shadow: 2px 2px 2px grey;
+}
+
+footer {
+    background-color: wheat;
+    text-align: center;
+    padding: 20px;
+}

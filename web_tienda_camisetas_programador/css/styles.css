@@ -1,0 +1,111 @@
+/*Body*/
+body    
+    {
+        background-color: purple;
+    }
+/*Importing fonts*/
+@font-face {
+    font-family: roboto;
+    src: url(../../999_fonts/RobotoMono-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: roboto2;
+    src: url(../../999_fonts/RobotoMono-Italic-VariableFont_wght.ttf);
+}
+/*header*/
+#header h3
+    {
+        font-family: roboto;
+        color: white
+    }
+#header h1 
+    {
+        font-family: roboto2;
+        color: yellow;
+        size: 2em;
+    }
+/*Nav*/
+#nav
+    {
+        background-color: rgb(88, 14, 88);
+    }
+#nav .col-4 a 
+    {
+        font-size: 1.5em;
+        text-decoration: none;   
+        display: inline;
+    }
+#nav .col-4 a:hover 
+    {
+        color: pink;
+        text-shadow: 2px 2px 2px purple;
+        font-size: 1.6em;
+        transition: 0.4s;
+    }
+#tienda 
+    {
+        color: yellow;
+        font-family: roboto;
+    }
+#nosotros
+    {   
+        color: white;
+        font-family: roboto2;
+    }
+/*Section and images*/
+img {
+    box-shadow: 4px 4px 4px black;
+    border-radius: 20px;
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    align-self:  center;
+}
+
+
+/*Footer*/
+#footer 
+    {
+        background-color: rgb(73, 13, 83);
+        font-family: roboto2;
+        border-radius: 20px;
+    }
+#footer a 
+    {
+        text-decoration: none;
+        color: yellow;
+        font-size: 1.4em;  
+        border: 2px solid rgb(133, 31, 133);
+        border-radius: 20px;
+        padding: 5px;
+        background-color: rgb(88, 14, 88);
+    }
+#footer a:hover
+    {   
+        transition: 0.4s;
+        padding: 15px;
+        color: pink;
+        text-shadow: 2px 2px 2px purple;
+    }
+#contact
+    {
+        color: white;
+        text-shadow: 2px 2px 2px grey;
+    }
+.row .col-3 i 
+    {
+        align-self: center;
+        padding: 20px;
+        border: 2px solid yellow;
+        border-radius: 20px;
+        background: -webkit-linear-gradient(pink, purple);
+        color: yellow;
+        box-shadow: 2px 2px 2px purple;
+    }
+.row .col-3 i:hover 
+    {
+        padding: 25px;
+        transition: 0.4s;
+        border-radius: 40px;
+        background: -webkit-linear-gradient(purple, pink);
+    }

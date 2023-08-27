@@ -1,0 +1,43 @@
+/*Importing fonts*/
+@font-face {
+    font-family: roboto;
+    src: url(../../999_fonts/RobotoMono-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: roboto2;
+    src: url(../../999_fonts/RobotoMono-Italic-VariableFont_wght.ttf);
+}
+
+
+
+.container h1 {
+    color: white;
+    font-family: roboto2;   
+}
+
+.container .col-12 {
+    background-color: rgb(88, 14, 88);
+    border-radius: 20px;
+    padding: 5px;
+    margin: 9px;
+    border: 2px solid black;
+    text-shadow: 2px 2px 2px grey;
+    font-family: roboto2;
+    color: yellow;
+}
+
+.container .col-10 {
+    background-color: white;
+    border-radius: 40px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+    box-shadow: 4px 4px 4px black;
+    font-size: 1.2em;
+    font-family: roboto;
+    text-shadow: 2px 2px 2px grey;
+}
+
+#main_text{
+    text-align: right;
+}

@@ -1,0 +1,43 @@
+
+body{
+    background-color: wheat;
+}
+.container{
+    align-self: center;
+    border: 1px solid black;
+    padding: 30px;
+    background: -webkit-linear-gradient(grey, rgb(96, 90, 90));
+    border-radius: 20px;
+}
+
+#input{
+    padding: 20px;
+    background: -webkit-linear-gradient(aquamarine, cyan);
+    border-radius: 20px;
+    text-align: center;
+    border: 2px solid purple;
+    box-shadow: 4px 4px 4px black;
+}
+#input:hover {
+    background: -webkit-linear-gradient(yellow, yellowgreen);
+    padding: 25px;
+    transition: 1.2s;
+}
+#input input, select, textarea {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#input button {
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 4px 4px 4px black;
+}
+
+#input button:hover {
+    padding: 20px;
+    transition: 1.4s;
+    background: -webkit-linear-gradient(magenta, aquamarine);
+}
